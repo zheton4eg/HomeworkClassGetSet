@@ -4,7 +4,7 @@ void main() {
 Thermometr thermometr=new Thermometr();
 thermometr.setTemperature(-51);
 thermometr.print();
-    Product product=new Product("apples",3,3);
+    Product product=new Product("apples",-1,3);
     product.print();
     product.totalCost();
 
